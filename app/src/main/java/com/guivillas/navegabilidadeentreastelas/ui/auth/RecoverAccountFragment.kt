@@ -6,18 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.guivillas.navegabilidadeentreastelas.R
-import com.guivillas.navegabilidadeentreastelas.databinding.FragmentRegisterBinding
+import com.guivillas.navegabilidadeentreastelas.databinding.FragmentRecoverAccountBinding
 
-class RegisterFragment : Fragment() {
-    private var _binding: FragmentRegisterBinding? = null
+class RecoverAccountFragment : Fragment() {
+    private var _binding: FragmentRecoverAccountBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
+        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentRegisterBinding.inflate(inflater, container, false)
+        _binding = FragmentRecoverAccountBinding.inflate(inflater, container, false)
         return binding.root
     }
 

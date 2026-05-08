@@ -1,4 +1,4 @@
-package com.guivillas.navegabilidadeentreastelas.ui.auth
+package com.guivillas.navegabilidadeentreastelas.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.guivillas.navegabilidadeentreastelas.R
-import com.guivillas.navegabilidadeentreastelas.databinding.FragmentRegisterBinding
+import com.guivillas.navegabilidadeentreastelas.databinding.FragmentDoneBinding
 
-class RegisterFragment : Fragment() {
-    private var _binding: FragmentRegisterBinding? = null
+class DoneFragment : Fragment() {
+    private var _binding: FragmentDoneBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,7 +17,7 @@ class RegisterFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentRegisterBinding.inflate(inflater, container, false)
+        _binding = FragmentDoneBinding.inflate(inflater, container, false)
         return binding.root
     }
 
