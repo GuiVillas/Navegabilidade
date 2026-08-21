@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.guivillas.navegabilidadeentreastelas.R
 import com.guivillas.navegabilidadeentreastelas.databinding.FragmentRecoverAccountBinding
+import com.guivillas.navegabilidadeentreastelas.util.initToolbar
 
 class RecoverAccountFragment : Fragment() {
     private var _binding: FragmentRecoverAccountBinding? = null
@@ -18,6 +19,11 @@ class RecoverAccountFragment : Fragment() {
     ): View {
         _binding = FragmentRecoverAccountBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initToolbar(binding.toolbar)
     }
 
     override fun onDestroyView() {

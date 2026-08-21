@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.guivillas.navegabilidadeentreastelas.R
 import com.guivillas.navegabilidadeentreastelas.databinding.FragmentLoginBinding
+import com.guivillas.navegabilidadeentreastelas.util.initToolbar
 
 class LoginFragment : Fragment() {
     private var _binding: FragmentLoginBinding? = null
