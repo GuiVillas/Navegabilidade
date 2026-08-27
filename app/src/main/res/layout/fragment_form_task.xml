@@ -81,6 +81,7 @@
                     android:buttonTint="@color/black"
                     android:id="@+id/rbTodo"
                     android:text="A Fazer"
+                    android:checked="true"
                     android:theme="@style/MyRadioButton"
                     android:textColor="@color/white" />
 
@@ -112,7 +113,7 @@
                 android:text="Salvar"
                 android:textAllCaps="false"
                 android:textColor="@color/color_default"
-                android:backgroundTint="@null"
+                app:backgroundTint="@null"
                 app:layout_editor_absoluteX="16dp"
                 app:layout_editor_absoluteY="221dp"
                 app:layout_constraintEnd_toEndOf="parent"
