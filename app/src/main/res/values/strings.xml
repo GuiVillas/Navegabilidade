@@ -13,4 +13,11 @@
     <string name="email_empty_register_fragment">Preencha um e-mail válido.</string>
     <string name="password_empty_register_fragment">Preencha uma senha.</string>
     <string name="description_empty_form_task_fragment">Preencha uma descrição</string>
+    <string name="text_button_register_login_fragment">Criar Conta</string>
+    <string name="text_title_login_fragment">Login</string>
+    <string name="text_button_recover_login_fragment">Recuperar Conta</string>
+    <string name="email_text">E-mail</string>
+    <string name="password_text">Senha</string>
+    <string name="hint_edit_email">Digite seu e-mail</string>
+    <string name="hint_edit_password">Digite sua senha</string>
 </resources>

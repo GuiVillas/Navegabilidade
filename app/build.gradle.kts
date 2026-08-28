@@ -2,6 +2,7 @@ import com.android.build.api.dsl.ViewBinding
 
 plugins {
     alias(libs.plugins.android.application)
+    id("kotlin-parcelize")
 }
 
 android {
