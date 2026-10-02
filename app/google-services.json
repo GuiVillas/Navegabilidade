@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139719032517",
+    "project_id": "taskapp-f8d9c",
+    "storage_bucket": "taskapp-f8d9c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139719032517:android:bcd205648a1d8eef457aac",
+        "android_client_info": {
+          "package_name": "com.guivillas.navegabilidadeentreastelas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuzLxUGheUkJ59yqPqvOk_8r17ck4A5-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
